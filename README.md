@@ -8,14 +8,14 @@ My perspective is from *Software Engineer* point of view with background in C++ 
 
 ## Table of Contents
 1. [Basics](#id-basics) <br/>
-   1.1.[Loops](#id-basics-loops) <br/>
-   1.2.[Deep and Shallow Copies](#id-basics-deep)<br/>
-   1.3.[Modules](#id-basics-modules)<br/>
-   1.4.[lambdas](#id-basics-lambdas)<br/>
-   1.5.[Recursion](#id-basics-recursion)<br/>
-   1.6.[Reflection](#id-basics-reflection)<br/>
-   1.7.[hooks](#id-basics-hooks)<br/>
-   1.8.[yield](#id-basics-yield)<br/>
+   1.1. [Loops](#id-basics-loops) <br/>
+   1.2. [Deep and Shallow Copies](#id-basics-deep)<br/>
+   1.3. [Modules](#id-basics-modules)<br/>
+   1.4. [lambdas](#id-basics-lambdas)<br/>
+   1.5. [Recursion](#id-basics-recursion)<br/>
+   1.6. [Reflection](#id-basics-reflection)<br/>
+   1.7. [hooks](#id-basics-hooks)<br/>
+   1.8. [yield](#id-basics-yield)<br/>
 2. [Files](#id-files) <br/>
 3. [Data Structures](#id-data) <br/>
 4. [Object Oriented](#id-oo) <br/>
