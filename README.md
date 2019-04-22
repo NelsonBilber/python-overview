@@ -18,7 +18,7 @@ My perspective is from *Software Engineer* point of view with background in C++ 
 9. [GUI](#GUI)
 10. [Graphics](#Graphics)
 11. [Resources](#Resources)
-	11.1. [Books](#Books)
+	11.1. [Books](#Books) <br/>
 	11.2. [Links](#Links)
 
 
@@ -237,9 +237,9 @@ Some custom made Datastructures
 
 ### Custom List
 
-```pyhton
+```python
 
-# Costumize a list in python
+#Costumize a list in python
 
 class PyList:
     def __init__(self, contents=[], size=10):
