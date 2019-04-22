@@ -9,8 +9,18 @@ My perspective is from *Software Engineer* point of view with background in C++ 
 # Table of Contents
 1. [Basics](#Basics)
 2. [Files](#Files)
-3. [Data Structures](#Data Structures)
-4. [Object Oriented](Object Oriented)
+3. [Data Structures](#Data-Structures)
+4. [Object Oriented](Object-Oriented)
+5. [Math](Math)
+6. [Network](Network)
+7. [Software Architecture](Software-Architecture)
+8. [Unit Testing](Unit-testing)
+9. [GUI](GUI)
+10. [Graphics](Graphics)
+11. [Resources](Resources)
+12. [Books](Books)
+13. [Links](Links)
+
 
 
 ## Basics
@@ -221,7 +231,7 @@ if __name__ == "__main__":
 	
 ```
 
-## Data Structures
+## Data-Structures
 
 Some custom made Datastructures
 
@@ -422,7 +432,7 @@ if __name__ == "__main__":
     main()
 ```
 
-## Object Oriented
+## Object-Oriented
 ### Create and print a simple class
 
 ```python
@@ -1134,11 +1144,11 @@ https://medium.com/swlh/lets-write-a-chat-app-in-python-f6783a9ac170
 https://steelkiwi.com/blog/working-tcp-sockets/
 
 
-## Software Architecture
+## Software-Architecture
 
 **TODO**
 
-## Unit Testing
+## Unit-Testing
 
 **TODO**
 
