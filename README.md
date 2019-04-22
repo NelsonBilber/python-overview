@@ -8,9 +8,11 @@ My perspective is from *Software Engineer* point of view with background in C++ 
 
 
 ## Basics
+
 ### How to use for loops
 
 ```python
+
 import sys
 from copy import deepcopy
 from mymodules import fibonacci #custom modules
@@ -58,17 +60,15 @@ if __name__ == "__main__":
 Create and import custom modules
 
 ```python
+
 from mymodules import fibonacci #custom modules
 
 if __name__ == "__main__":
 	print ("Fibonacci: ", fibonacci.fib(10))
-```	
 
-
-# On folder "mymodules" the file fibonacy.py
-# Modular Programming 
-# https://www.python-course.eu/python3_modules_and_modular_programming.php
-
+ # On folder "mymodules" the file fibonacy.py
+ # Modular Programming 
+ # https://www.python-course.eu/python3_modules_and_modular_programming.php
 
 def fib(n):
     if n == 0:
