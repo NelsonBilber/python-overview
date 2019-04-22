@@ -18,8 +18,8 @@ My perspective is from *Software Engineer* point of view with background in C++ 
 9. [GUI](GUI)
 10. [Graphics](Graphics)
 11. [Resources](Resources)
-12. [Books](Books)
-13. [Links](Links)
+	11.1. [Books](Books)
+	11.2. [Links](Links)
 
 
 
