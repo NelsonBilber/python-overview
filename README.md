@@ -22,7 +22,7 @@ My perspective is from *Software Engineer* point of view with background in C++ 
    4.1. [Inheritance](#id-oo-inheritance) <br/>
 5. [Math](#id-math) <br/>
 6. [Network](#id-network) <br/>
-   6.1. [Echo Server](#id-network-echo-serve)<br/>
+   6.1. [Echo Server](#id-network-echo-server)<br/>
 7. [Software Architecture](#id-arch) <br/>
 8. [Unit Testing](#id-unit-testing) <br/>
 9. [GUI](#id-gui) <br/>
