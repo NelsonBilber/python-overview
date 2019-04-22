@@ -6,6 +6,12 @@ So I decide to give it a try.
 
 My perspective is from *Software Engineer* point of view with background in C++ and C# programming languages.
 
+# Table of Contents
+1. [Basics](#Basics)
+2. [Files](#Files)
+3. [Data Structures](#Data Structures)
+4. [Object Oriented](Object Oriented)
+
 
 ## Basics
 
@@ -416,8 +422,7 @@ if __name__ == "__main__":
     main()
 ```
 
-## Oriented Object
-
+## Object Oriented
 ### Create and print a simple class
 
 ```python
@@ -1062,7 +1067,8 @@ if __name__ == "__main__":
 
 ```
 
-## numpy
+## Math
+### numpy
 
 **TODO**
 
@@ -1140,8 +1146,9 @@ https://steelkiwi.com/blog/working-tcp-sockets/
 
 **TODO**
 
+## Graphics
+[Python + OpenGl](https://github.com/NelsonBilber/py.opengl)
 ## Resources
-
 ### Books
 
 Some of code source examples are from nect two books
