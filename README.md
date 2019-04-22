@@ -1190,6 +1190,7 @@ print ('Received reply(echo) from server: ', repr(data))
 ### Other links
 
 https://medium.com/swlh/lets-write-a-chat-app-in-python-f6783a9ac170
+
 https://steelkiwi.com/blog/working-tcp-sockets/
 
 
@@ -1215,7 +1216,7 @@ https://steelkiwi.com/blog/working-tcp-sockets/
 
 ## Graphics
 
-[Python + OpenGl](https://github.com/NelsonBilber/py.opengl)
+[Python + OpenGL](https://github.com/NelsonBilber/py.opengl)
 
 <div id='id-resources'/>
 
