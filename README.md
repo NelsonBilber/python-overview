@@ -6,7 +6,7 @@ So I decide to give it a try.
 
 My perspective is from *Software Engineer* point of view with background in C++ and C# programming languages.
 
-# Table of Contents
+## Table of Contents
 1. [Basics](#id-basics) <br/>
    1.1.[Loops](#id-basics-loops) <br/>
    1.2.[Deep and Shallow Copies](#id-basics-deep)<br/>
@@ -32,8 +32,11 @@ My perspective is from *Software Engineer* point of view with background in C++ 
 *** 
 
 <div id='id-basics'/>
+
 ## Basics
+
 <div id='id-basics-loops'/>
+
 ### How to use for loops
 
 ```python
@@ -54,6 +57,7 @@ def forloops():
 ```
 
 <div id='id-basics-deep'/>
+
 ### Deep and shallow copy
 
 ```python
@@ -82,6 +86,7 @@ if __name__ == "__main__":
 ```
 
 <div id='id-basics-modules'/>
+
 ### Modules (Custom)
 
 Create and import custom modules
@@ -137,6 +142,7 @@ print (f)
 
 
 <div id='id-basics-recursion'/>
+
 ### Recursion
 
 ```python
@@ -180,6 +186,7 @@ if __name__ == "__main__":
 ```
 
 <div id='id-basics-reflection'/>
+
 ### Reflection
 
 ```python
@@ -209,17 +216,20 @@ if __name__ == "__main__":
 ```
 
 <div id='id-basics-hooks'/>
+
 ### Hooks
 
 **TODO**
 
 
 <div id='id-basics-yield'/>
+
 ### yield
 
 **TODO**
 
 <div id='id-files'/>
+
 ## Files
 
 How to read and write files
@@ -251,6 +261,7 @@ if __name__ == "__main__":
 ```
 
 <div id='id-data'/>
+
 ## Data-Structures
 
 Some custom made Datastructures
@@ -453,7 +464,9 @@ if __name__ == "__main__":
 ```
 
 <div id='id-oo'/>
+
 ## Object-Oriented
+
 ### Create and print a simple class
 
 ```python
@@ -494,6 +507,7 @@ if __name__ == "__main__":
 
     main()  
 ```
+
 
 ### Inheritance and virtual class and methods
 
@@ -982,6 +996,7 @@ if __name__ == "__main__":
 
 ``` 
 
+
 ### Another Example of class Inheritance
 
 ```python
@@ -1098,13 +1113,17 @@ if __name__ == "__main__":
 
 ```
 
+
 <div id='id-math'/>
+
 ## Math
+
 ### numpy
 
 **TODO**
 
 <div id='id-network'/>
+
 ## Network
 
 ### Simple server-client echo application for one connection.
@@ -1168,26 +1187,35 @@ https://steelkiwi.com/blog/working-tcp-sockets/
 
 
 <div id='id-arch'/>
+
 ## Software-Architecture
 
 **TODO**
 
 <div id='id-unit-testing'/>
+
 ## Unit-Testing
 
 **TODO**
 
 <div id='id-gui'/>
+
 ## GUI
 
 **TODO**
 
 <div id='id-graphics'/>
+
 ## Graphics
+
 [Python + OpenGl](https://github.com/NelsonBilber/py.opengl)
+
 <div id='id-resources'/>
+
 ## Resources
+
 <div id='id-books'/>
+
 ### Books
 
 Some of code source examples are from nect two books
@@ -1196,6 +1224,7 @@ Some of code source examples are from nect two books
 - Data Structures and Algorithms with Python - Ken D. Lee
 
 <div id='id-links'/>
+
 ### Links
 
 [Learn Python the Hard Way](https://learnpythonthehardway.org/python3/)
