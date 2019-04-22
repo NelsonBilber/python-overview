@@ -64,10 +64,11 @@ if __name__ == "__main__":
 	print ("Fibonacci: ", fibonacci.fib(10))
 ```	
 
-'''
-on folder "mymodules" the file fibonacy.py
-Modular Programming https://www.python-course.eu/python3_modules_and_modular_programming.php
-'''
+
+# On folder "mymodules" the file fibonacy.py
+# Modular Programming 
+# https://www.python-course.eu/python3_modules_and_modular_programming.php
+
 
 def fib(n):
     if n == 0:
@@ -76,32 +77,29 @@ def fib(n):
         return 1
     else:
         return fib(n-1) + fib(n-2)
-
-
 ```
 
 ### Lambas
 
-```pyhton
+```python
 
-'''
-https://www.python-course.eu/python3_lambda.php
-'''
+# https://www.python-course.eu/python3_lambda.php
+
 from functools import reduce
 
 sum = lambda x, y: x+y
 print (sum (2,4))
 
-'''
-reduce
-Determining the maximum of a list of numerical values by using reduce
-'''
+
+# reduce
+# Determining the maximum of a list of numerical values by using reduce
+
 
 g = lambda a,b: a if (a > b) else b
 g = reduce( g,[47,11,42,102,13])
 print (g)
 
-//Calculating the sum of the numbers from 1 to 100
+# Calculating the sum of the numbers from 1 to 100
 f = reduce (lambda x,y: x+y, range(1,101))
 print (f)
 
@@ -179,7 +177,9 @@ if __name__ == "__main__":
 ```
 
 ### Hooks
+
 **TODO**
+
 
 ### yield
 
@@ -190,6 +190,7 @@ if __name__ == "__main__":
 How to read and write files
 
 ```python
+
 import sys
 
 def ReadFromFile():
@@ -222,9 +223,7 @@ Some custom made Datastructures
 
 ```pyhton
 
-'''
-Costumize a list in python
-'''
+# Costumize a list in python
 
 class PyList:
     def __init__(self, contents=[], size=10):
@@ -299,9 +298,9 @@ if __name__ == "__main__":
 
 ```python
 
-'''
-https://www.tutorialspoint.com/python/python_advanced_linked_list.htm
-'''
+
+# https://www.tutorialspoint.com/python/python_advanced_linked_list.htm
+
 
 class LinkedList:
     class __Node:
@@ -331,9 +330,9 @@ class LinkedList:
 ### Matrix
 
 ```python
-'''
-double list
-'''
+
+# double list
+
 class Board:
     matrix = []
     quadraticlimit = 0
@@ -370,6 +369,7 @@ if __name__ == "__main__":
 ### Stack 
 
 ```python
+
 class Stack:
     def __init__(self):
         self.items = []
@@ -415,7 +415,9 @@ def main():
 if __name__ == "__main__":
     main()
 ```
+
 ## Oriented Object
+
 ### Create and print a simple class
 
 ```python
@@ -461,11 +463,9 @@ if __name__ == "__main__":
 
 ```python
 
-'''
-The imports include turtle graphics and tkinter modules. 
-The colorchooser and filedialog modules let the user
-pick a color and a filename.
-'''
+# The imports include turtle graphics and tkinter modules. 
+# The colorchooser and filedialog modules let the user
+# pick a color and a filename.
 
 import turtle
 import tkinter
@@ -473,10 +473,8 @@ import tkinter.colorchooser
 import tkinter.filedialog
 import xml.dom.minidom
 
-'''
-The following classes define the different commands that 
-Are supported by the drawing application. 
-'''
+# The following classes define the different commands that 
+# Are supported by the drawing application. 
 
 class GoToCommand:
     def __init__(self,x,y,width=1,color="black"):
@@ -557,10 +555,8 @@ class PenDownCommand:
     def __str__(self):
         return "<Command>PenDown</Command>"
 
-'''
-This is the container class for a graphics sequence. It is meant
-to hold the graphics commands sequence. 
-'''
+# This is the container class for a graphics sequence. It is meant
+# to hold the graphics commands sequence. 
 
 class GraphicsSequence:
     def __init__(self):
@@ -640,10 +636,10 @@ class GraphicsSequence:
     
             self.append(cmd)
             
-'''       
-This class defines the drawing application. The following line says that
-the DrawingApplication class inherits from the Frame class. This means
-'''
+
+# This class defines the drawing application. The following line says that
+# the DrawingApplication class inherits from the Frame class. This means
+
 
 class DrawingApplication(tkinter.Frame):
     def __init__(self, master=None):
@@ -930,13 +926,13 @@ class DrawingApplication(tkinter.Frame):
         screen.onkeypress(undoHandler, "u")
         screen.listen()
 
-'''   
- The main function in our GUI program is very simple. It creates the 
- root window. Then it creates the DrawingApplication frame which creates 
- all the widgets and has the logic for the event handlers. Calling mainloop
- on the frames makes it start listening for events. The mainloop function will 
- return when the application is exited. 
-'''
+
+# The main function in our GUI program is very simple. It creates the 
+# root window. Then it creates the DrawingApplication frame which creates 
+# all the widgets and has the logic for the event handlers. Calling mainloop
+# on the frames makes it start listening for events. The mainloop function will 
+# return when the application is exited. 
+
 
 def main():
     root = tkinter.Tk()  
@@ -954,14 +950,13 @@ if __name__ == "__main__":
 
 ```python
 
-'''
-https://www.tutorialspoint.com/python/python_classes_objects.htm
-https://realpython.com/python3-object-oriented-programming/
-https://www.python-course.eu/python3_abstract_classes.php
-https://www.python-course.eu/python3_object_oriented_programming.php
+# https://www.tutorialspoint.com/python/python_classes_objects.htm
+# https://realpython.com/python3-object-oriented-programming/
+# https://www.python-course.eu/python3_abstract_classes.php
+# https://www.python-course.eu/python3_object_oriented_programming.php
 
-Normal class
-'''
+# Normal class
+
 
 class Employee:
     #class attributes
@@ -977,16 +972,15 @@ class Employee:
    def displayEmployee(self):
       print ("Name : ", self.name,  ", Salary: ", self.salary)
 
-'''
- ------------------------------------------------------------------
- Class Inheritance
- Naming   Type       Meaning
 
-name	 Public     These attributes can be freely used inside or outside of a class definition.
-_name	 Protected  Protected attributes should not be used outside of the class definition, unless inside of a subclass definition. 
-__name	 Private    This kind of attribute is inaccessible and invisible. It's neither possible to read nor write to those attributes, except inside of the class definition itself.
 
-'''
+# Class Inheritance
+# Naming   Type       Meaning
+# ----------------------------------
+# name	 Public     These attributes can be freely used inside or outside of a class definition.
+# _name	 Protected  Protected attributes should not be used outside of the class definition, unless # inside of a subclass definition. 
+# __name	 Private    This kind of attribute is inaccessible and invisible. It's neither possible to read nor write to those attributes, except inside of the class definition itself.
+
 
 class Parent:        # define parent class
     parentAttr = 100
@@ -1024,9 +1018,7 @@ class Child(Parent): # define child class
     def myMethod(self):
        print ("Child class: myMethod")
 
-'''
-Abstrack class
-''
+# Abstrack class
 
 class AbstractClassExample():
     def doSomething(self):
@@ -1071,7 +1063,9 @@ if __name__ == "__main__":
 ```
 
 ## numpy
+
 **TODO**
+
 ## Network
 
 ### Simple server-client echo application for one connection.
@@ -1082,10 +1076,9 @@ Source code from [Socket Programming in Python (Guide)](https://realpython.com/p
 
 ```python
 
-'''
-echo server - client
-source code from here -> https://realpython.com/python-sockets/
-'''
+
+# echo server - client
+# source code from here -> https://realpython.com/python-sockets/
 
 import socket
 
@@ -1110,10 +1103,10 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
 
 ```python
 
-'''
-echo server - client
-source code from here -> https://realpython.com/python-sockets/
-'''
+
+# echo server - client
+# source code from here -> https://realpython.com/python-sockets/
+
 
 import socket
 
@@ -1148,6 +1141,7 @@ https://steelkiwi.com/blog/working-tcp-sockets/
 **TODO**
 
 ## Resources
+
 ### Books
 
 Some of code source examples are from nect two books
