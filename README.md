@@ -15,20 +15,21 @@ My perspective is from *Software Engineer* point of view with background in C++ 
    1.5.[Recursion](#id-basics-recursion)<br/>
    1.6.[Reflection](#id-basics-reflection)<br/>
    1.7.[hooks](#id-basics-hooks)<br/>
-   1.8.[yield](#id-basics-yields)<br/>
-2. [Files](#Files) <br/>
-3. [Data Structures](#Data-Structures) <br/>
-4. [Object Oriented](#Object-Oriented) <br/>
-5. [Math](#Math) <br/>
-6. [Network](#Network) <br/>
-7. [Software Architecture](#Software-Architecture) <br/>
-8. [Unit Testing](#Unit-testing) <br/>
-9. [GUI](#GUI) <br/>
-10. [Graphics](#Graphics) <br/>
-11. [Resources](#Resources) <br/>
-	11.1. [Books](#Books) <br/>
-	11.2. [Links](#Links) <br/>
+   1.8.[yield](#id-basics-yield)<br/>
+2. [Files](#id-files) <br/>
+3. [Data Structures](#id-data) <br/>
+4. [Object Oriented](#id-oo) <br/>
+5. [Math](#id-math) <br/>
+6. [Network](#id-network) <br/>
+7. [Software Architecture](#id-arch) <br/>
+8. [Unit Testing](#id-unit-testing) <br/>
+9. [GUI](#id-gui) <br/>
+10. [Graphics](#id-graphics) <br/>
+11. [Resources](#id-resources) <br/>
+	11.1. [Books](#id-books) <br/>
+	11.2. [Links](#id-links) <br/>
 
+*** 
 
 <div id='id-basics'/>
 ## Basics
@@ -218,6 +219,7 @@ if __name__ == "__main__":
 
 **TODO**
 
+<div id='id-files'/>
 ## Files
 
 How to read and write files
@@ -248,6 +250,7 @@ if __name__ == "__main__":
 	
 ```
 
+<div id='id-data'/>
 ## Data-Structures
 
 Some custom made Datastructures
@@ -449,6 +452,7 @@ if __name__ == "__main__":
     main()
 ```
 
+<div id='id-oo'/>
 ## Object-Oriented
 ### Create and print a simple class
 
@@ -1094,11 +1098,13 @@ if __name__ == "__main__":
 
 ```
 
+<div id='id-math'/>
 ## Math
 ### numpy
 
 **TODO**
 
+<div id='id-network'/>
 ## Network
 
 ### Simple server-client echo application for one connection.
@@ -1161,21 +1167,27 @@ https://medium.com/swlh/lets-write-a-chat-app-in-python-f6783a9ac170
 https://steelkiwi.com/blog/working-tcp-sockets/
 
 
+<div id='id-arch'/>
 ## Software-Architecture
 
 **TODO**
 
+<div id='id-unit-testing'/>
 ## Unit-Testing
 
 **TODO**
 
+<div id='id-gui'/>
 ## GUI
 
 **TODO**
 
+<div id='id-graphics'/>
 ## Graphics
 [Python + OpenGl](https://github.com/NelsonBilber/py.opengl)
+<div id='id-resources'/>
 ## Resources
+<div id='id-books'/>
 ### Books
 
 Some of code source examples are from nect two books
@@ -1183,6 +1195,7 @@ Some of code source examples are from nect two books
 - Python Programming Fundamentals - Ken D. Lee
 - Data Structures and Algorithms with Python - Ken D. Lee
 
+<div id='id-links'/>
 ### Links
 
 [Learn Python the Hard Way](https://learnpythonthehardway.org/python3/)
