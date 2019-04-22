@@ -19,8 +19,10 @@ My perspective is from *Software Engineer* point of view with background in C++ 
 2. [Files](#id-files) <br/>
 3. [Data Structures](#id-data) <br/>
 4. [Object Oriented](#id-oo) <br/>
+   4.1. [Inheritance](#id-oo-inheritance) <br/>
 5. [Math](#id-math) <br/>
 6. [Network](#id-network) <br/>
+   6.1. [Echo Server](#id-network-echo-serve)<br/>
 7. [Software Architecture](#id-arch) <br/>
 8. [Unit Testing](#id-unit-testing) <br/>
 9. [GUI](#id-gui) <br/>
@@ -264,13 +266,13 @@ if __name__ == "__main__":
 
 ## Data-Structures
 
-Some custom made Datastructures
+Some custom made Data Structures
 
 ### Custom List
 
 ```python
 
-#Costumize a list in python
+#Customize a list in python
 
 class PyList:
     def __init__(self, contents=[], size=10):
@@ -508,6 +510,9 @@ if __name__ == "__main__":
     main()  
 ```
 
+
+
+<div id='id-oo-inheritance' />
 
 ### Inheritance and virtual class and methods
 
@@ -1125,6 +1130,8 @@ if __name__ == "__main__":
 <div id='id-network'/>
 
 ## Network
+
+<div id='id-network-echo-server' />
 
 ### Simple server-client echo application for one connection.
 
