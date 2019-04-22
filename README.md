@@ -7,24 +7,32 @@ So I decide to give it a try.
 My perspective is from *Software Engineer* point of view with background in C++ and C# programming languages.
 
 # Table of Contents
-1. [Basics](#Basics)
-2. [Files](#Files)
-3. [Data Structures](#Data-Structures)
-4. [Object Oriented](#Object-Oriented)
-5. [Math](#Math)
-6. [Network](#Network)
-7. [Software Architecture](#Software-Architecture)
-8. [Unit Testing](#Unit-testing)
-9. [GUI](#GUI)
-10. [Graphics](#Graphics)
-11. [Resources](#Resources)
+1. [Basics](#id-basics) <br/>
+   1.1.[Loops](#id-basics-loops) <br/>
+   1.2.[Deep and Shallow Copies](#id-basics-deep)<br/>
+   1.3.[Modules](#id-basics-modules)<br/>
+   1.4.[lambdas](#id-basics-lambdas)<br/>
+   1.5.[Recursion](#id-basics-recursion)<br/>
+   1.6.[Reflection](#id-basics-reflection)<br/>
+   1.7.[hooks](#id-basics-hooks)<br/>
+   1.8.[yield](#id-basics-yields)<br/>
+2. [Files](#Files) <br/>
+3. [Data Structures](#Data-Structures) <br/>
+4. [Object Oriented](#Object-Oriented) <br/>
+5. [Math](#Math) <br/>
+6. [Network](#Network) <br/>
+7. [Software Architecture](#Software-Architecture) <br/>
+8. [Unit Testing](#Unit-testing) <br/>
+9. [GUI](#GUI) <br/>
+10. [Graphics](#Graphics) <br/>
+11. [Resources](#Resources) <br/>
 	11.1. [Books](#Books) <br/>
-	11.2. [Links](#Links)
+	11.2. [Links](#Links) <br/>
 
 
-
+<div id='id-basics'/>
 ## Basics
-
+<div id='id-basics-loops'/>
 ### How to use for loops
 
 ```python
@@ -44,6 +52,7 @@ def forloops():
     print ("number of characters ", i)   
 ```
 
+<div id='id-basics-deep'/>
 ### Deep and shallow copy
 
 ```python
@@ -71,6 +80,7 @@ if __name__ == "__main__":
 	ShallowAndDeepCopy()
 ```
 
+<div id='id-basics-modules'/>
 ### Modules (Custom)
 
 Create and import custom modules
@@ -94,6 +104,9 @@ def fib(n):
     else:
         return fib(n-1) + fib(n-2)
 ```
+
+
+<div id='id-basics-lambdas'/>
 
 ### Lambas
 
@@ -122,6 +135,7 @@ print (f)
 ```
 
 
+<div id='id-basics-recursion'/>
 ### Recursion
 
 ```python
@@ -164,6 +178,7 @@ if __name__ == "__main__":
 
 ```
 
+<div id='id-basics-reflection'/>
 ### Reflection
 
 ```python
@@ -192,11 +207,13 @@ if __name__ == "__main__":
 
 ```
 
+<div id='id-basics-hooks'/>
 ### Hooks
 
 **TODO**
 
 
+<div id='id-basics-yield'/>
 ### yield
 
 **TODO**
