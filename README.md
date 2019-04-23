@@ -1235,6 +1235,6 @@ Some of code source examples are from nect two books
 
 ### Links
 
-[Learn Python the Hard Way](https://learnpythonthehardway.org/python3/)
+[Learn Python the Hard Way](https://learnpythonthehardway.org/python3/) My solutions [here](https://github.com/NelsonBilber/py.thehardway)
 
 
