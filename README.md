@@ -13,12 +13,14 @@ My perspective is from *Software Engineer* point of view with background in C++ 
    1.3. [Modules](#id-basics-modules)<br/>
    1.4. [lambdas](#id-basics-lambdas)<br/>
    1.5. [Recursion](#id-basics-recursion)<br/>
+   1.6  [Copy By Reference or Value](#id-copy)<br>
 2. [Not so Basic](#id-not-basic) <br/>
    2.1. [Reflection](#id-basics-reflection)<br/>
    2.2. [hooks](#id-basics-hooks)<br/>
    2.3. [yield](#id-basics-yield)<br/>
 3. [Files](#id-files) <br/>
 4. [Data Structures](#id-data) <br/>
+   4.1 [List Comprehensions](#id-lc) <br/>
 5. [Object Oriented](#id-oo) <br/>
    5.1. [Inheritance](#id-oo-inheritance) <br/>
 6. [Math](#id-math) <br/>
@@ -189,7 +191,45 @@ if __name__ == "__main__":
 
 
 ```
+<div id='id-copy'/>
 
+### Copy By Reference or Value
+
+
+```python
+
+def func(other):
+    print ("func -> other before change: ", id(other))
+    print (first is other)
+    other = 2
+    print ("func -> other after change: ",id(other))
+    print (first is other)
+
+first = 1
+print (id(first))
+
+func(first)
+
+print (first)
+print (id(first))
+print ("=============")
+
+# --------------------------------------------
+
+def funcList(other):
+    other[0] += 1
+    print (lst is other)
+    other += [1]
+    print (lst is other)
+
+lst = [1]
+funcList(lst)
+print (lst)
+
+# imutable objects (int, str, long, tuples)
+# mutables objctes (list, dictionaries)
+
+```
 
 <div id='id-not-basics'/>
 
@@ -524,6 +564,34 @@ def main():
 if __name__ == "__main__":
     main()
 ```
+
+<div id='id-lc'>
+
+### List Comprehensions
+
+```python
+
+# avoid cycles
+
+x = [i for i in range(10)]
+
+for i in x:
+    print (i)
+
+# without list comprehensions
+
+squares = []
+for x in range(10):
+    squares.append(x**2)
+
+print (squares)
+
+squares_lc = [x**2 for x in range(10)]
+print (squares_lc)
+
+```
+
+[List Comprehensions in Python](https://www.pythonforbeginners.com/basics/list-comprehensions-in-python)
 
 <div id='id-oo'/>
 
@@ -1275,8 +1343,6 @@ https://steelkiwi.com/blog/working-tcp-sockets/
 <div id='id-unit-testing'/>
 
 ## Unit-Testing
-
-**TODO**
 
 " ... 
 
