@@ -13,23 +13,24 @@ My perspective is from *Software Engineer* point of view with background in C++ 
    1.3. [Modules](#id-basics-modules)<br/>
    1.4. [lambdas](#id-basics-lambdas)<br/>
    1.5. [Recursion](#id-basics-recursion)<br/>
-   1.6. [Reflection](#id-basics-reflection)<br/>
-   1.7. [hooks](#id-basics-hooks)<br/>
-   1.8. [yield](#id-basics-yield)<br/>
-2. [Files](#id-files) <br/>
-3. [Data Structures](#id-data) <br/>
-4. [Object Oriented](#id-oo) <br/>
-   4.1. [Inheritance](#id-oo-inheritance) <br/>
-5. [Math](#id-math) <br/>
-6. [Network](#id-network) <br/>
-   6.1. [Echo Server](#id-network-echo-server)<br/>
-7. [Software Architecture](#id-arch) <br/>
-8. [Unit Testing](#id-unit-testing) <br/>
-9. [GUI](#id-gui) <br/>
-10. [Graphics](#id-graphics) <br/>
-11. [Resources](#id-resources) <br/>
-	11.1. [Books](#id-books) <br/>
-	11.2. [Links](#id-links) <br/>
+2. [Not so Basic](#id-not-basic) <br/>
+   2.1. [Reflection](#id-basics-reflection)<br/>
+   2.2. [hooks](#id-basics-hooks)<br/>
+   2.3. [yield](#id-basics-yield)<br/>
+3. [Files](#id-files) <br/>
+4. [Data Structures](#id-data) <br/>
+5. [Object Oriented](#id-oo) <br/>
+   5.1. [Inheritance](#id-oo-inheritance) <br/>
+6. [Math](#id-math) <br/>
+7. [Network](#id-network) <br/>
+   7.1. [Echo Server](#id-network-echo-server)<br/>
+8. [Software Architecture](#id-arch) <br/>
+9. [Unit Testing](#id-unit-testing) <br/>
+10. [GUI](#id-gui) <br/>
+11. [Graphics](#id-graphics) <br/>
+12. [Resources](#id-resources) <br/>
+	12.1. [Books](#id-books) <br/>
+	12.2. [Links](#id-links) <br/>
 
 *** 
 
@@ -187,6 +188,11 @@ if __name__ == "__main__":
 
 ```
 
+
+<div id='id-not-basics'/>
+
+## Not so basic
+
 <div id='id-basics-reflection'/>
 
 ### Reflection
@@ -224,11 +230,56 @@ if __name__ == "__main__":
 **TODO**
 
 
+
+
 <div id='id-basics-yield'/>
 
-### yield
+### yield and Generators
 
-**TODO**
+```Python
+
+def add(a, b):
+    return a + b
+
+def simple_generator_function(): 
+    yield 1
+    yield "w"
+    yield 3 # yield saves last state of iterator
+
+our_generator = simple_generator_function()
+print (next (our_generator))
+print (add(5,9))
+print (next (our_generator))
+print (next (our_generator))
+#print (next (our_generator)) # no more files to show commands
+
+```
+
+[Improve Your Python: 'yield' and Generators Explained](https://jeffknupp.com/blog/2013/04/07/improve-your-python-yield-and-generators-explained/)
+
+
+
+"... The yield statement suspends function’s execution and sends a value back to caller, but retains enough state to enable function to resume where it is left off. When resumed, the function continues execution immediately after the last yield run. This allows its code to produce a series of values over time, rather them computing them at once and sending them back like a list. .."
+
+```Python
+
+def netxSquare():
+    i = 1;
+    while True:
+        yield i*i
+        i += 1
+
+for num in netxSquare():
+    if num > 10:
+        break
+    print (num)
+
+
+```
+ 
+" ... Yield are used in Python generators. A generator function is defined like a normal function, but whenever it needs to generate a value, it does so with the yield keyword rather than return. If the body of a def contains yield, the function automatically becomes a generator function. ..."
+
+[When to use yield instead of return in Python?](https://www.geeksforgeeks.org/use-yield-keyword-instead-return-keyword-python/)
 
 <div id='id-files'/>
 
