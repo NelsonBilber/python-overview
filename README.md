@@ -22,6 +22,7 @@ My perspective is from *Software Engineer* point of view with background in C++ 
 5. [Object Oriented](#id-oo) <br/>
    5.1. [Inheritance](#id-oo-inheritance) <br/>
 6. [Math](#id-math) <br/>
+   6.1 [numpy](#id-numpy) <br/>
 7. [Network](#id-network) <br/>
    7.1. [Echo Server](#id-network-echo-server)<br/>
 8. [Software Architecture](#id-arch) <br/>
@@ -1181,11 +1182,21 @@ if __name__ == "__main__":
 
 ## Math
 
+<div id='id-numpy'/>
+
 ### numpy
 
-NumPy is a Python package. It stands for 'Numerical Python'. It is a library consisting of multidimensional array objects and a collection of routines for processing of array
+"... NumPy is a Python package. It stands for 'Numerical Python'. It is a library consisting of multidimensional array objects and a collection of routines for processing of array ..."
 
-[Learn NumPy - absolute beginners](https://www.tutorialspoint.com/numpy/)
+```python
+import numpy as np
+
+a = np.array([1, 2,3])
+print (a)
+
+```
+
+Source and Quotes from [Learn NumPy - absolute beginners](https://www.tutorialspoint.com/numpy/)
 
 <div id='id-network'/>
 
