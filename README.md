@@ -13,22 +13,22 @@ My perspective is from *Software Engineer* point of view with background in C++ 
    1.3. [Modules](#id-basics-modules)<br/>
    1.4. [lambdas](#id-basics-lambdas)<br/>
    1.5. [Recursion](#id-basics-recursion)<br/>
-   1.6  [Copy By Reference or Value](#id-copy)<br>
+   1.6.  [Copy By Reference or Value](#id-copy)<br>
 2. [Not so Basic](#id-not-basic) <br/>
    2.1. [Reflection](#id-basics-reflection)<br/>
    2.2. [hooks](#id-basics-hooks)<br/>
    2.3. [yield](#id-basics-yield)<br/>
 3. [Files](#id-files) <br/>
 4. [Data Structures](#id-data) <br/>
-   4.1 [List Comprehensions](#id-lc) <br/>
+   4.1. [List Comprehensions](#id-lc) <br/>
 5. [Object Oriented](#id-oo) <br/>
    5.1. [Inheritance](#id-oo-inheritance) <br/>
 6. [Math](#id-math) <br/>
-   6.1 [numpy](#id-numpy) <br/>
+   6.1. [numpy](#id-numpy) <br/>
 7. [Network](#id-network) <br/>
    7.1. [Echo Server](#id-network-echo-server)<br/>
 8. [Software Architecture](#id-arch) <br/>
-   8.1 [Unit Testing](#id-unit-testing) <br/>
+   8.1. [Unit Testing](#id-unit-testing) <br/>
 9. [GUI](#id-gui) <br/>
 10. [Graphics](#id-graphics) <br/>
 11. [Python Bindings](#id-pybind)<br/> 
