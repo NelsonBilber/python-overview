@@ -29,9 +29,10 @@ My perspective is from *Software Engineer* point of view with background in C++ 
 9. [Unit Testing](#id-unit-testing) <br/>
 10. [GUI](#id-gui) <br/>
 11. [Graphics](#id-graphics) <br/>
-12. [Resources](#id-resources) <br/>
-	12.1. [Books](#id-books) <br/>
-	12.2. [Links](#id-links) <br/>
+12. [Python Bindings](#id-pybind)<br/> 
+13. [Resources](#id-resources) <br/>
+	13.1. [Books](#id-books) <br/>
+	13.2. [Links](#id-links) <br/>
 
 *** 
 
@@ -1292,6 +1293,23 @@ https://steelkiwi.com/blog/working-tcp-sockets/
 [Python + OpenGL](https://github.com/NelsonBilber/py.opengl)
 
 <div id='id-resources'/>
+
+
+<div id='id-pybind'>
+
+## Python Bindings
+
+One thing cool in python is the possibility of creating binding to libraries developed in other languages.
+Could be nice to fast prototype and test some idea.
+
+[pybind11](https://github.com/pybind/pybind11)
+
+Some Examples
+
+[pymesh](https://pymesh.readthedocs.io/en/latest/)
+
+[libigl](https://github.com/libigl/libigl)
+
 
 ## Resources
 
