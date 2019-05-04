@@ -317,7 +317,14 @@ if __name__ == "__main__":
 
 ## Data-Structures
 
-Some custom made Data Structures
+The built-ins data structures are: 
+- lists
+- tuples
+- dictionaries
+- strings 
+- sets 
+
+But we can create some custom made Data Structures
 
 ### Custom List
 
@@ -1176,7 +1183,9 @@ if __name__ == "__main__":
 
 ### numpy
 
-**TODO**
+NumPy is a Python package. It stands for 'Numerical Python'. It is a library consisting of multidimensional array objects and a collection of routines for processing of array
+
+[Learn NumPy - absolute beginners](https://www.tutorialspoint.com/numpy/)
 
 <div id='id-network'/>
 
