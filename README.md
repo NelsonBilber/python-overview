@@ -28,13 +28,13 @@ My perspective is from *Software Engineer* point of view with background in C++ 
 7. [Network](#id-network) <br/>
    7.1. [Echo Server](#id-network-echo-server)<br/>
 8. [Software Architecture](#id-arch) <br/>
-9. [Unit Testing](#id-unit-testing) <br/>
-10. [GUI](#id-gui) <br/>
-11. [Graphics](#id-graphics) <br/>
-12. [Python Bindings](#id-pybind)<br/> 
-13. [Resources](#id-resources) <br/>
-	13.1. [Books](#id-books) <br/>
-	13.2. [Links](#id-links) <br/>
+   8.1 [Unit Testing](#id-unit-testing) <br/>
+9. [GUI](#id-gui) <br/>
+10. [Graphics](#id-graphics) <br/>
+11. [Python Bindings](#id-pybind)<br/> 
+12. [Resources](#id-resources) <br/>
+	12.1. [Books](#id-books) <br/>
+	12.2. [Links](#id-links) <br/>
 
 *** 
 
@@ -1338,11 +1338,21 @@ https://steelkiwi.com/blog/working-tcp-sockets/
 
 ## Software-Architecture
 
-**TODO**
+**WIP**
+
+This is a broad topic but is always nice to quick explore the behaviour and possibilities in these topics:
+
+- refactoring
+- testability
+- performance 
+- scale applications
+- security
+- design patterns
+
 
 <div id='id-unit-testing'/>
 
-## Unit-Testing
+### Unit-Testing
 
 " ... 
 
@@ -1403,12 +1413,12 @@ if __name__== '__main__':
 
 ## Python Bindings
 
-One thing cool in python is the possibility of creating binding to libraries developed in other languages.
-Could be nice to fast prototype and test some idea.
+One cool feature in Python is the possibility of creating binding from libraries developed in other languages, e.g. C and C++.
+We cloud use well establish libraries with years of development and easily use them without deal with low level code details.
 
 [pybind11](https://github.com/pybind/pybind11)
 
-Some Examples
+Some Examples:
 
 [pymesh](https://pymesh.readthedocs.io/en/latest/)
 
