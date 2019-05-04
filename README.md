@@ -1261,7 +1261,9 @@ https://steelkiwi.com/blog/working-tcp-sockets/
 
 ## GUI
 
-**TODO**
+[Tkinter](https://wiki.python.org/moin/TkInter)
+
+[PyQt](https://wiki.python.org/moin/PyQt)
 
 <div id='id-graphics'/>
 
@@ -1288,4 +1290,4 @@ Some of code source examples are from nect two books
 
 [Learn Python the Hard Way](https://learnpythonthehardway.org/python3/) My solutions [here](https://github.com/NelsonBilber/py.thehardway)
 
-
+[Best Python Resources](https://www.fullstackpython.com/best-python-resources.html)
