@@ -41,11 +41,11 @@ My perspective is from *Software Engineer* point of view with background in C++ 
 
 <div id='id-basics'/>
 
-## Basics
+## 1. Basics
 
 <div id='id-basics-loops'/>
 
-### How to use for loops
+### 1.1. How to use for loops
 
 ```python
 
@@ -66,7 +66,7 @@ def forloops():
 
 <div id='id-basics-deep'/>
 
-### Deep and shallow copy
+### 1.2. Deep and shallow copy
 
 ```python
 
@@ -95,7 +95,7 @@ if __name__ == "__main__":
 
 <div id='id-basics-modules'/>
 
-### Modules (Custom)
+### 1.3. Modules (Custom)
 
 Create and import custom modules
 
@@ -122,7 +122,7 @@ def fib(n):
 
 <div id='id-basics-lambdas'/>
 
-### Lambas
+### 1.4. Lambas
 
 ```python
 
@@ -151,7 +151,7 @@ print (f)
 
 <div id='id-basics-recursion'/>
 
-### Recursion
+### 1.5. Recursion
 
 ```python
 
@@ -194,7 +194,7 @@ if __name__ == "__main__":
 ```
 <div id='id-copy'/>
 
-### Copy By Reference or Value
+### 1.6. Copy By Reference or Value
 
 
 ```python
@@ -234,11 +234,11 @@ print (lst)
 
 <div id='id-not-basics'/>
 
-## Not so basic
+## 2. Not so basic
 
 <div id='id-basics-reflection'/>
 
-### Reflection
+### 2.1. Reflection
 
 ```python
 
@@ -268,7 +268,7 @@ if __name__ == "__main__":
 
 <div id='id-basics-hooks'/>
 
-### Hooks
+### 2.2. Hooks
 
 **TODO**
 
@@ -277,7 +277,7 @@ if __name__ == "__main__":
 
 <div id='id-basics-yield'/>
 
-### yield and Generators
+### 2.3. yield and Generators
 
 ```Python
 
@@ -326,7 +326,7 @@ for num in netxSquare():
 
 <div id='id-files'/>
 
-## Files
+## 2. Files
 
 How to read and write files
 
@@ -358,7 +358,7 @@ if __name__ == "__main__":
 
 <div id='id-data'/>
 
-## Data-Structures
+## 4. Data-Structures
 
 The built-ins data structures are: 
 - lists
@@ -568,7 +568,7 @@ if __name__ == "__main__":
 
 <div id='id-lc'>
 
-### List Comprehensions
+### 4.1. List Comprehensions
 
 ```python
 
@@ -596,9 +596,9 @@ print (squares_lc)
 
 <div id='id-oo'/>
 
-## Object-Oriented
+## 5. Object-Oriented
 
-### Create and print a simple class
+### 5.1. Create and print a simple class
 
 ```python
 import turtle
@@ -643,7 +643,7 @@ if __name__ == "__main__":
 
 <div id='id-oo-inheritance' />
 
-### Inheritance and virtual class and methods
+### 6. Inheritance and virtual class and methods
 
 ```python
 
@@ -1250,11 +1250,11 @@ if __name__ == "__main__":
 
 <div id='id-math'/>
 
-## Math
+## 6. Math
 
 <div id='id-numpy'/>
 
-### numpy
+### 6.1 numpy
 
 "... NumPy is a Python package. It stands for 'Numerical Python'. It is a library consisting of multidimensional array objects and a collection of routines for processing of array ..."
 
@@ -1270,11 +1270,11 @@ Source and Quotes from [Learn NumPy - absolute beginners](https://www.tutorialsp
 
 <div id='id-network'/>
 
-## Network
+## 7. Network
 
 <div id='id-network-echo-server' />
 
-### Simple server-client echo application for one connection.
+### 7.1. Simple server-client echo application for one connection.
 
 Source code from [Socket Programming in Python (Guide)](https://realpython.com/python-sockets/)
 
@@ -1337,7 +1337,7 @@ https://steelkiwi.com/blog/working-tcp-sockets/
 
 <div id='id-arch'/>
 
-## Software-Architecture
+## 8. Software-Architecture
 
 **WIP**
 
@@ -1353,7 +1353,7 @@ This is a broad topic but is always nice to quick explore the behaviour and poss
 
 <div id='id-unit-testing'/>
 
-### Unit-Testing
+### 8.1 Unit-Testing
 
 " ... 
 
@@ -1395,7 +1395,7 @@ if __name__== '__main__':
 
 <div id='id-gui'/>
 
-## GUI
+## 9. GUI
 
 [Tkinter](https://wiki.python.org/moin/TkInter)
 
@@ -1403,7 +1403,7 @@ if __name__== '__main__':
 
 <div id='id-graphics'/>
 
-## Graphics
+## 10. Graphics
 
 [Python + OpenGL](https://github.com/NelsonBilber/py.opengl)
 
@@ -1412,7 +1412,7 @@ if __name__== '__main__':
 
 <div id='id-pybind'>
 
-## Python Bindings
+## 11. Python Bindings
 
 One cool feature in Python is the possibility of creating binding from libraries developed in other languages, e.g. C and C++.
 We cloud use well establish libraries with years of development and easily use them without deal with low level code details.
@@ -1426,11 +1426,11 @@ Some Examples:
 [libigl](https://github.com/libigl/libigl)
 
 
-## Resources
+## 12. Resources
 
 <div id='id-books'/>
 
-### Books
+### 12.1. Books
 
 **Some of code source examples are the study result/extracted from next books**:
 
@@ -1440,7 +1440,7 @@ Some Examples:
 
 <div id='id-links'/>
 
-### Links
+### 12.2. Links
 
 [Learn Python the Hard Way](https://learnpythonthehardway.org/python3/) My solutions [here](https://github.com/NelsonBilber/py.thehardway)
 
@@ -1448,7 +1448,7 @@ Some Examples:
 
 <div id='id-todo'/>
 
-## TODO List/ Next Steps
+## 13. TODO List/ Next Steps
 
 Some tips from my co-workers next steps cloud be:
 
