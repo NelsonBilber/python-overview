@@ -1339,7 +1339,7 @@ https://steelkiwi.com/blog/working-tcp-sockets/
 
 ## 8. Software-Architecture
 
-**WIP**
+* Notes from book:  Software Architecture with Python - Anand Balachandran Pillai
 
 This is a broad topic but is always nice to quick explore the behaviour and possibilities in these topics:
 
@@ -1350,6 +1350,9 @@ This is a broad topic but is always nice to quick explore the behaviour and poss
 - security
 - design patterns
 
+*... Modifiability is the degree of ease at which changes can be made to a system, and the flexibility with which the system adapts to such changes..."*
+
+*...The late binding refers to the practice of postponing the binding of values to parameters as late as possible in the order of execution of a code. Late binding allows the programmer to defer the factors which influence code execution, and hence the results of execution and performance of the code, to a later time by making use of multiple techniques..."*
 
 <div id='id-unit-testing'/>
 
@@ -1373,6 +1376,7 @@ To achieve this, unittest supports some important concepts:
 
 ..."
 
+-> quote from: Software Architecture with Python - Anand Balachandran Pillai
 
 ```python
 
@@ -1457,4 +1461,5 @@ Some tips from my co-workers next steps cloud be:
 - [ ] seaborn
 - [ ] matplotlib
 - [ ] pandas
+- [ ] concurrency and multi-threading, async, wait, 
 
