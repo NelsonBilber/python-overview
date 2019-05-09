@@ -35,6 +35,7 @@ My perspective is from *Software Engineer* point of view with background in C++ 
 12. [Resources](#id-resources) <br/>
 	12.1. [Books](#id-books) <br/>
 	12.2. [Links](#id-links) <br/>
+13. [TODO List/ Next Steps](#id-todo) <br/>
 
 *** 
 
@@ -1431,7 +1432,7 @@ Some Examples:
 
 ### Books
 
-Some of code source examples are from next books:
+**Some of code source examples are the study result/extracted from next books**:
 
 - Python Programming Fundamentals - Ken D. Lee
 - Data Structures and Algorithms with Python - Ken D. Lee
@@ -1444,3 +1445,16 @@ Some of code source examples are from next books:
 [Learn Python the Hard Way](https://learnpythonthehardway.org/python3/) My solutions [here](https://github.com/NelsonBilber/py.thehardway)
 
 [Best Python Resources](https://www.fullstackpython.com/best-python-resources.html)
+
+<div id='id-todo'/>
+
+## TODO List/ Next Steps
+
+Some tips from my co-workers next steps cloud be:
+
+- [ ] tensors [read](https://www.datacamp.com/community/tutorials/investigating-tensors-pytorch)
+- [ ] improve for loop e.g. use enumerates
+- [ ] seaborn
+- [ ] matplotlib
+- [ ] pandas
+
