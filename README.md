@@ -1435,6 +1435,7 @@ Some of code source examples are from next books:
 
 - Python Programming Fundamentals - Ken D. Lee
 - Data Structures and Algorithms with Python - Ken D. Lee
+- Software Architecture with Python - Anand Balachandran Pillai
 
 <div id='id-links'/>
 
