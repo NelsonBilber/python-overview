@@ -268,15 +268,13 @@ obj = Myclass()
 print (obj.method())
 print (obj.staticmethod())
 
-
 ```
-
   
 <div id='id-static-vars'/>
   
 ### 1.8. Class or Static Variables in Python
 
-```pyhton
+```python
 
 # Code from: https://www.geeksforgeeks.org/g-fact-34-class-or-static-variables-in-python/
 
@@ -304,7 +302,6 @@ print(b.roll) # prints "2"
 # Class variables can be accessed using class 
 # name also 
 print(CSStudent.stream) # prints "cse" 
-
 
 ```
 
