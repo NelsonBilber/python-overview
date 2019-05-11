@@ -13,7 +13,9 @@ My perspective is from *Software Engineer* point of view with background in C++ 
    1.3. [Modules](#id-basics-modules)<br/>
    1.4. [lambdas](#id-basics-lambdas)<br/>
    1.5. [Recursion](#id-basics-recursion)<br/>
-   1.6.  [Copy By Reference or Value](#id-copy)<br>
+   1.6. [Copy By Reference or Value](#id-copy)<br>
+   1.7. [Instance, Class, and Static Methods](#id-static-class)<br/>
+   1.8. [Class or Static Variables in Python](#id-static-vars)<br/>
 2. [Not so Basic](#id-not-basic) <br/>
    2.1. [Reflection](#id-basics-reflection)<br/>
    2.2. [hooks](#id-basics-hooks)<br/>
@@ -232,7 +234,81 @@ print (lst)
 
 ```
 
-<div id='id-not-basics'/>
+<div id='id-static-class'/>
+
+### 1.7. Instance, Class, and Static Methods](#id-static-class)
+
+```python
+
+# class methods, static methods and instance methods
+# https://realpython.com/instance-class-and-static-methods-demystified/
+# https://www.geeksforgeeks.org/class-method-vs-static-method-python/ 
+
+class Myclass:
+
+    #. You can see the method takes one parameter, self, which points to an instance of MyClass when the method is called
+    def method(self):
+        return 'instance method called', self
+
+    # has access to this cls argument, it cannot  modify object instance state
+    # class methods can still modify class state that applies across all instances of the class
+    # It can modify a class state that would apply across all the instances of the class. For example it can modify a class variable that will be applicable to all the instances.
+    
+    # ... python doesn’t support method overloading like C++ or Java so we use class methods to create factory methods. In the below example we use a class method to create a person object from birth year ... 
+    @classmethod
+    def classmethod(cls):
+        return 'class methos called', cls
+
+    # a static method can neither modify object state nor class state
+    @staticmethod
+    def staticmethod():
+        return 'static method called'
+
+obj = Myclass()
+print (obj.method())
+print (obj.staticmethod())
+
+
+```
+
+  
+<div id='id-static-vars'/>
+  
+### 1.8. Class or Static Variables in Python
+
+```pyhton
+
+# Code from: https://www.geeksforgeeks.org/g-fact-34-class-or-static-variables-in-python/
+
+# Python program to show that the variables with a value 
+# assigned in class declaration, are class variables 
+
+# Class for Computer Science Student 
+class CSStudent: 
+	stream = 'cse'				 # Class Variable 
+	def __init__(self,name,roll): 
+		self.name = name		 # Instance Variable 
+		self.roll = roll		 # Instance Variable 
+
+# Objects of CSStudent class 
+a = CSStudent('Geek', 1) 
+b = CSStudent('Nerd', 2) 
+
+print(a.stream) # prints "cse" 
+print(b.stream) # prints "cse" 
+print(a.name) # prints "Geek" 
+print(b.name) # prints "Nerd" 
+print(a.roll) # prints "1" 
+print(b.roll) # prints "2" 
+
+# Class variables can be accessed using class 
+# name also 
+print(CSStudent.stream) # prints "cse" 
+
+
+```
+
+<Div id='id-not-basics'/>
 
 ## 2. Not so basic
 
