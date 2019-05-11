@@ -236,7 +236,7 @@ print (lst)
 
 <div id='id-static-class'/>
 
-### 1.7. Instance, Class, and Static Methods](#id-static-class)
+### 1.7. Instance, Class, and Static Methods]
 
 ```python
 
